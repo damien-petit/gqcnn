@@ -192,5 +192,6 @@ if __name__ == '__main__':
         vis.imshow(rgbd_im.depth)
         vis.grasp(action.grasp, scale=1.5, show_center=False, show_axis=True)
         vis.title('Planned grasp on depth (Q=%.3f)' %(action.q_value))
+        print(action.grasp.pose())
         vis.show()
 
