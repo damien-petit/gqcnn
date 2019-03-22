@@ -186,6 +186,7 @@ if __name__ == '__main__':
     policy_start = time.time()
     action = policy(state)
     logging.info('Planning took %.3f sec' %(time.time() - policy_start))
+    logging.info(action.grasp.pose())
 
     # vis final grasp
     if policy_config['vis']['final_grasp']:

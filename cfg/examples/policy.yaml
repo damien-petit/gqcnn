@@ -1,8 +1,8 @@
 # sensor params
 sensor:
-  image_dir: /damien/img_dir/datasets/images/toto/realsense
+  image_dir: /damien/img_dir/datasets/images/toto/primesense
   type: virtual
-  frame: realsense
+  frame: primesense
 calib_dir: /damien/calib
 
 # policy params
